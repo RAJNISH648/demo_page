@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo</title>
+  <!-- fav-icon  -->
+  <link rel="icon" type="fav-icon" href="images/fav_icon.png">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- Bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- aos css -->  
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- header starts -->
+  <header id="home">
+    <div class="navigation fixed-top add-me">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light py-3 mb-4  border-bottom">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="img-fluid logo" src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pt-xs-3 pt-3 pt-lg-0" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item nav-item1">
+                  <a class="nav-link active nav-link1" aria-current="page" href="#home">HOME</a>
+                </li>
+                <li class="nav-item nav-item2">
+                  <a class="nav-link nav-link2" href="#packages_sec">PRICING</a>
+                </li>
+                <li class="nav-item nav-item3">
+                  <a class="nav-link nav-link3" href="#demo">DEMO</a>
+                </li>
+                <li class="nav-item nav-item4">
+                  <a class="nav-link nav-link4" href="#footer-section">CONTACT US</a>    
+                </li>
+              </ul>
+
+              <form>
+                <a href="#"><button type="button" class="btn btn-primary custom-button">PAY&nbsp;NOW</button></a>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+    <!-- banner -->
+    <div class="banner py-4 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex justify-content-lg-center justify-content-md-start align-items-center">
+            <div class="banner_left" data-aos="fade-right"> 
+              <h2>Solution For <br> Your Business</h2>
+              <p class="py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corrupti iusto ipsum
+                reprehenderit vitae, autem sequi libero minus culpa quae nam accusantium, asperiores iste, aperiam totam
+                harum magnam necessitatibus quis!</p>
+              <a href="#"><button class="btn btn_B btn-primary mt-2">LEARN MORE</button></a>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide text-center">
+                  <div class="slide_box">
+                    <img class="img-fluid w-100" src="images/pic_1.png" alt="img">
+                  </div>
+                </div>
+
+                <div class="swiper-slide text-center">
+                  <div class="slide_box">
+                    <img class="img-fluid w-100" src="images/pic_1.png" alt="img">
+                  </div>
+                </div>
+
+                <div class="swiper-slide text-center">
+                  <div class="slide_box">
+                    <img class="img-fluid w-100" src="images/pic_1.png" alt="img">
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!-- header close -->
+
+
+  <!-- packages_sec starts -->
+  <section id="packages_sec" class="py-5">
+    <div class="container">
+      <div id="generic_price_table">
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="price-heading clearfix pb-4">
+                  <h1>PACKAGES</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="generic_content clearfix" data-aos="fade-down"> 
+                  <div class="generic_head_price clearfix">
+                    <div class="generic_head_content clearfix">
+                      <div class="head_bg"></div>
+                      <div class="head">
+                        <span>Basic</span>
+                      </div>
+                    </div>
+                    <div class="generic_price_tag clearfix">
+                      <span class="price">
+                        <span class="sign">$</span>
+                        <span class="currency">99</span>
+                        <span class="month">/MON</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="generic_feature_list">
+                    <ul>
+                      <li><span>2GB</span> Bandwidth</li>
+                      <li><span>150GB</span> Storage</li>
+                      <li><span>12</span> Accounts</li>
+                      <li><span>7</span> Host Domain</li>
+                      <li><span>24/7</span> Support</li>
+                    </ul>
+                  </div>
+                  <div class="generic_price_btn clearfix">
+                    <a class="" href="">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="generic_content clearfix" data-aos="fade-up">
+                  <div class="generic_head_price clearfix">
+                    <div class="generic_head_content clearfix">
+                      <div class="head_bg"></div>
+                      <div class="head">
+                        <span>Silver</span>
+                      </div>
+                    </div>
+                    <div class="generic_price_tag clearfix">
+                      <span class="price">
+                        <span class="sign">$</span>
+                        <span class="currency">99</span>
+                        <span class="month">/MON</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="generic_feature_list">
+                    <ul>
+                      <li><span>2GB</span> Bandwidth</li>
+                      <li><span>150GB</span> Storage</li>
+                      <li><span>12</span> Accounts</li>
+                      <li><span>7</span> Host Domain</li>
+                      <li><span>24/7</span> Support</li>
+                    </ul>
+                  </div>
+                  <div class="generic_price_btn clearfix">
+                    <a class="" href="">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="generic_content active clearfix" data-aos="fade-down">
+                  <div class="generic_head_price clearfix">
+                    <div class="generic_head_content clearfix">
+                      <div class="head_bg"></div>
+                      <div class="head">
+                        <span>Gold</span>
+                      </div>
+                    </div>
+                    <div class="generic_price_tag clearfix">
+                      <span class="price">
+                        <span class="sign">$</span>
+                        <span class="currency">199</span>
+                        <span class="month">/MON</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="generic_feature_list">
+                    <ul>
+                      <li><span>2GB</span> Bandwidth</li>
+                      <li><span>150GB</span> Storage</li>
+                      <li><span>12</span> Accounts</li>
+                      <li><span>7</span> Host Domain</li>
+                      <li><span>24/7</span> Support</li>
+                    </ul>
+                  </div>
+                  <div class="generic_price_btn clearfix">
+                    <a class="" href="">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="generic_content clearfix" data-aos="fade-up">
+                  <div class="generic_head_price clearfix">
+                    <div class="generic_head_content clearfix">
+                      <div class="head_bg"></div>
+                      <div class="head">
+                        <span>Platinum</span>
+                      </div>
+                    </div>
+                    <div class="generic_price_tag clearfix">
+                      <span class="price">
+                        <span class="sign">$</span>
+                        <span class="currency">299</span>
+                        <span class="month">/MON</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="generic_feature_list">
+                    <ul>
+                      <li><span>2GB</span> Bandwidth</li>
+                      <li><span>150GB</span> Storage</li>
+                      <li><span>12</span> Accounts</li>
+                      <li><span>7</span> Host Domain</li>
+                      <li><span>24/7</span> Support</li>
+                    </ul>
+                  </div>
+                  <div class="generic_price_btn clearfix">
+                    <a class="" href="">Book Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="row pt-5">
+        <h1 class="text-center plan_head mb-3">COMPARE PLANS</h1>
+        <div class="table-responsive">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th class="t_head" style="width: 20%;"></th>
+                <th class="t_head" style="width: 20%;">Basic</th>
+                <th class="t_head" style="width: 20%;">Silvar</th>
+                <th class="t_head" style="width: 20%;">Gold</th>
+                <th class="t_head" style="width: 20%;">Platinum</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start t_head pt-3">Public</th>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+              </tr>
+
+              <tr>
+                <th scope="row" class="text-start t_head pt-3">Private</th>
+                <td></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start t_head pt-3">Permissions</th>
+                <td></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start t_head pt-3">Sharing</th>
+                <td></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start t_head pt-3">Unlimited members</th>
+                <td></td>
+                <td></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start t_head pt-3">Extra security</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><i class="bi check_icon bi-check-lg"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- packages_sec close -->
+
+  <!-- demo starts -->
+  <section id="demo" class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="demo_heading text-center py-3">
+            <h1>DEMO</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row pb-5">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+          <div class="template-card d-lg-flex" data-aos="zoom-in">
+            <picture class="flex-shrink-0">
+              <source media="(min-width: 480px) and (max-width: 768px)"
+                srcset="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.webp" />
+              <source media="(max-width: 479px), (min-width: 769px)"
+                srcset="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-sm.webp" />
+              <img src="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.webp"
+                loading="lazy" class="img-fluid" alt="img" width="800" height="600" />
+            </picture>
+            <div class="details">
+              <h2>
+                <a href="#">Demo 1 : Meet The Tutor</a>
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatibus fugit sequi nostrum temporibus
+                voluptate accusantium soluta quidem labore dolore tenetur nesciunt provident totam quibusdam quasi
+                impedit, alias dolorum aperiam?
+              </p>
+              <div class="buttons">
+                <a href="#" rel="nofollow" class="demo"><span title="Live Demo">Live Preview</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pb-5">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+          <div class="template-card d-lg-flex" data-aos="zoom-in">
+            <picture class="flex-shrink-0">
+              <source media="(min-width: 480px) and (max-width: 768px)"
+                srcset="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.webp" />
+              <source media="(max-width: 479px), (min-width: 769px)"
+                srcset="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-sm.webp" />
+              <img src="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.webp"
+                loading="lazy" class="img-fluid" alt="img" width="800" height="600" />
+            </picture>
+            <div class="details">
+              <h2>
+                <a href="#">Demo 1 : Meet The Tutor</a>
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatibus fugit sequi nostrum temporibus
+                voluptate accusantium soluta quidem labore dolore tenetur nesciunt provident totam quibusdam quasi
+                impedit, alias dolorum aperiam?
+              </p>
+              <div class="buttons">
+                <a href="#" rel="nofollow" class="demo"><span title="Live Demo">Live Preview</span></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row pb-5">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+          <div class="template-card d-lg-flex" data-aos="zoom-in">
+            <picture class="flex-shrink-0">
+              <source media="(min-width: 480px) and (max-width: 768px)"
+                srcset="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.webp" />
+              <source media="(max-width: 479px), (min-width: 769px)"
+                srcset="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-sm.webp" />
+              <img src="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.webp"
+                loading="lazy" class="img-fluid" alt="img" width="800" height="600" />
+            </picture>
+            <div class="details">
+              <h2>
+                <a href="#">Demo 1 : Meet The Tutor</a>
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatibus fugit sequi nostrum temporibus
+                voluptate accusantium soluta quidem labore dolore tenetur nesciunt provident totam quibusdam quasi
+                impedit, alias dolorum aperiam?
+              </p>
+              <div class="buttons">
+                <a href="#" rel="nofollow" class="demo"><span title="Live Demo">Live Preview</span></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pb-3">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+          <div class="template-card d-lg-flex" data-aos="zoom-in">
+            <picture class="flex-shrink-0">
+              <source media="(min-width: 480px) and (max-width: 768px)"
+                srcset="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.webp" />
+              <source media="(max-width: 479px), (min-width: 769px)"
+                srcset="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-sm.webp" />
+              <img src="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.webp"
+                loading="lazy" class="img-fluid" alt="img" width="800" height="600" />
+            </picture>
+            <div class="details">
+              <h2>
+                <a href="#">Demo 1 : Meet The Tutor</a>
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatibus fugit sequi nostrum temporibus
+                voluptate accusantium soluta quidem labore dolore tenetur nesciunt provident totam quibusdam quasi
+                impedit, alias dolorum aperiam?
+              </p>
+              <div class="buttons">
+                <a href="#" rel="nofollow" class="demo"><span title="Live Demo">Live Preview</span></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- demo close -->
+
+  <!-- footer starts -->
+  <footer id="footer-section">     
+    <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-md-4">
+            <div class="single-cta d-flex align-items-center">
+              <i class="bi bi-geo-alt-fill"></i>
+              <div class="cta-text">
+                <h4>Find us</h4>
+                <span>1010 Avenue, sw 54321, chandigarh</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta d-flex align-items-center">
+              <i class="bi bi-telephone-fill"></i>
+              <div class="cta-text">
+                <h4>Call us</h4>
+                <span>9876543210 0</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta d-flex align-items-center">
+              <i class="bi bi-envelope-fill"></i>
+              <div class="cta-text">
+                <h4>Mail us</h4>
+                <span>mail@info.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="#"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
+              </div>
+              <div class="footer-text">
+                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec
+                  tetur adipisicing
+                  elit,Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="footer-social-icon">
+                <span>Follow us</span>
+
+                <div class="s_icon d-flex">
+                  <li class="f_col" data-aos="flip-left"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                  <li class="t_col" data-aos="flip-right"><a href="#"><i class="bi bi-twitter "></i></a></li>
+                  <li class="l_col" data-aos="flip-left"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div class="footer-widget mt_custom">
+              <div class="footer-widget-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <div class="links d-flex">
+                <ul class="ps-0">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Demo</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+                <ul class="ps-0">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Demo</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <div class="footer-widget mt_custom">
+              <div class="footer-widget-heading">
+                <h3>Contact Us</h3>
+              </div>
+              <div class="subscribe-form">
+                <form action="#">
+                  <label class="pb-2">Name</label>
+                  <input type="text" placeholder="Name">
+                </form>
+              </div>
+
+              <div class="subscribe-form mt-3">
+                <form action="#">
+                  <label class="pb-2">Mobile Number</label>
+                  <input type="text" placeholder="Mobile Number">
+                </form>
+
+              </div>
+              <a href="#"><button class="btn footer_btn btn-primary mt-3 w-100" type="submit">SUBMIT</button></a>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2023, All Right Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer close -->
+  
+  <!-- bottom to top button -->  
+  <button type="button" class="btn btn-danger btn-floating btn-lg bottom_btn" id="btn-back-to-top" data-aos="fade-up">
+    <i class="bi bi-arrow-up-circle"></i>         
+  </button>
+
+  <!-- whatsapp chat icon -->
+  <div class="whatsapp_float" data-aos="fade-left">    
+   <a href="https://wa.me/918287904046" target="_blank"><img src="images/WhatsApp-Logo.svg" alt="whatsapp_logo"></a> 
+  </div>      
+
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- jquery cdn -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- aos js --> 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
+
