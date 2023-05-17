@@ -1,15 +1,4 @@
-// $(document).ready(function () {
-//     $(window).scroll(function () {
-//       var scroll = $(window).scrollTop();
-//       if (scroll > 0) {         
-//         $(".navigation").addClass("add-me");
-//       } else {
-//         $(".navigation").removeClass("add-me");        
-//       }
-//     });
-//   });  
-
-// add remove class   
+// add remove class
 $(document).ready(function () {
   $(".nav-item1").click(function () {
     $(".nav-link1").addClass("active");
@@ -38,10 +27,9 @@ $(document).ready(function () {
     $(".nav-link3").removeClass("active");
     $(".nav-link4").addClass("active");
   });
-
 });
 
-// swiper slider   
+// swiper slider
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 0,
@@ -56,16 +44,13 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-//bottom to top button  
+//bottom to top button
 let mybutton = document.getElementById("btn-back-to-top");
 window.onscroll = function () {
   scrollFunction();
 };
 function scrollFunction() {
-  if (
-    document.body.scrollTop > 20 ||
-    document.documentElement.scrollTop > 20
-  ) {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -77,8 +62,3 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-// aos effect 
-AOS.init({
-  duration: 1500   
-});
